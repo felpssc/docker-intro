@@ -1,0 +1,12 @@
+{
+  "name": "docker-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -i node_modules -L --exec 'node --inspect=0.0.0.0:9229 ./server.js'"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
